@@ -1,0 +1,2 @@
+module CraislistHelper
+end

@@ -1,0 +1,7 @@
+<h1>Craigslist</h1>
+<dl>
+  <% @formattedsearch.each do |job| %>
+    <dt><%= job.text %>
+    <dd><%= job['href'] %>
+  <% end %>
+</dl>
